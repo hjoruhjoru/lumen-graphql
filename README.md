@@ -59,10 +59,3 @@ $router->post('/graphql', [
 
 **NOTE:** Make sure that your route group does not have a ```namespace``` attribute. Otherwise Lumen will be unable to find the ```GraphQLController```.
 
-## Contributing
-
-Please read the [guidelines](.github/CONTRIBUTING.md).
-
-## License
-
-See [LICENSE](LICENSE).
