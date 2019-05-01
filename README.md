@@ -13,6 +13,7 @@ GraphQL module for the Laravel and Lumen PHP frameworks.
 - PHP 7.1 or newer
 - [Composer](http://getcomposer.org)
 - [Lumen](https://lumen.laravel.com/) / [Laravel](https://laravel.com) 5.5 or newer
+- Mysql
 
 ## Usage
 
