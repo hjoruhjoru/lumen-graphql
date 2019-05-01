@@ -1,6 +1,4 @@
-/vendor
 /.idea
-/vendor/
 /build/logs/clover.xml
 graphql.schema.lock.json
 composer.lock

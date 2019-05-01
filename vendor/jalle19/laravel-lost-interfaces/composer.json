@@ -1,0 +1,21 @@
+{
+    "name": "jalle19/laravel-lost-interfaces",
+    "description": "A collection of lost interfaces for the Laravel framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Stenvall",
+            "email": "sam.stenvall@nordsoftware.com"
+        }
+    ],
+    "require": {
+        "illuminate/events": "^5.4",
+        "illuminate/http": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jalle19\\Laravel\\LostInterfaces\\": "src/"
+        }
+    }
+}
