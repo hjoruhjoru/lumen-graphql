@@ -1,9 +1,9 @@
 <?php
 
-namespace Digia\Lumen\GraphQL\Tests\Models;
+namespace Tests\Models;
 
 use Digia\Lumen\GraphQL\Models\ResolveContext;
-use Digia\Lumen\GraphQL\Tests\TestCase;
+use Tests\TestCase;
 
 /**
  * Class ResolveContextTest

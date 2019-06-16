@@ -1,7 +1,5 @@
 <?php
-
-namespace Digia\Lumen\GraphQL\Tests;
-
+namespace Tests;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
@@ -11,7 +9,6 @@ use Illuminate\Http\Response;
  */
 abstract class MiddlewareTestCase extends TestCase
 {
-
     /**
      * @param mixed        $middleware
      * @param Request|null $request
@@ -21,12 +18,10 @@ abstract class MiddlewareTestCase extends TestCase
         if ($request === null) {
             $request = new Request();
         }
-
         $this->assertInstanceOf(Response::class, $middleware->handle($request, function () {
             return new Response();
         }));
     }
-
     /**
      * @param mixed        $middleware
      * @param Request|null $request
@@ -36,12 +31,10 @@ abstract class MiddlewareTestCase extends TestCase
         if ($request === null) {
             $request = new Request();
         }
-
         $middleware->handle($request, function () {
             return new Response();
         });
-
         $this->fail('Expected middleware to throw an exception, nothing was thrown');
     }
-
 }
+?>
